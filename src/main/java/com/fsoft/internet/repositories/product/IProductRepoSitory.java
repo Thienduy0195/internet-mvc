@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.fsoft.internet.models.Product;
+import com.fsoft.internet.entities.Product;
 
 @Repository
 @Transactional

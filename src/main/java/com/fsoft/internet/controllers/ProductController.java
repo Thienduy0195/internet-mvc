@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.fsoft.internet.dto.ProductDTO;
-import com.fsoft.internet.models.Product;
+import com.fsoft.internet.entities.Product;
 import com.fsoft.internet.services.product.IProductService;
 
 @Controller

@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.fsoft.internet.models.Payment;
+import com.fsoft.internet.entities.Payment;
 
 public interface IPaymentService {
 

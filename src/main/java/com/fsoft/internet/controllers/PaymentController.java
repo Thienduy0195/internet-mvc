@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.fsoft.internet.dto.PaymentDTO;
-import com.fsoft.internet.models.Customer;
-import com.fsoft.internet.models.Payment;
-import com.fsoft.internet.models.PaymentId;
-import com.fsoft.internet.models.Product;
+import com.fsoft.internet.entities.Customer;
+import com.fsoft.internet.entities.Payment;
+import com.fsoft.internet.entities.PaymentId;
+import com.fsoft.internet.entities.Product;
 import com.fsoft.internet.services.customer.ICustomerService;
 import com.fsoft.internet.services.payment.IPaymentService;
 import com.fsoft.internet.services.product.IProductService;

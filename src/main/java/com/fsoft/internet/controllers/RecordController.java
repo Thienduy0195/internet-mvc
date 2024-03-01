@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.fsoft.internet.dto.RecordDTO;
-import com.fsoft.internet.models.Computer;
-import com.fsoft.internet.models.Customer;
-import com.fsoft.internet.models.RecordId;
-import com.fsoft.internet.models.Records;
+import com.fsoft.internet.entities.Computer;
+import com.fsoft.internet.entities.Customer;
+import com.fsoft.internet.entities.RecordId;
+import com.fsoft.internet.entities.Records;
 import com.fsoft.internet.services.computer.IComputerService;
 import com.fsoft.internet.services.customer.ICustomerService;
 import com.fsoft.internet.services.record.IRecordService;

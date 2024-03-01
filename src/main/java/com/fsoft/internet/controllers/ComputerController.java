@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.fsoft.internet.dto.ComputerDTO;
-import com.fsoft.internet.models.Computer;
+import com.fsoft.internet.entities.Computer;
 import com.fsoft.internet.services.computer.IComputerService;
 
 @Controller

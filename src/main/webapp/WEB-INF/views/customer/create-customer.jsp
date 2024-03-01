@@ -7,10 +7,11 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Create customer</title>
-<link href="<c:url value="/resources/css/bootstrap.min.css" />"
-	rel="stylesheet">
-<link href="<c:url value="/resources/css/create-customer.css" />"
-	rel="stylesheet">
+<style type="text/css">
+ <%@include file="/resources/css/bootstrap.min.css"%>
+ <%@include file="/resources/css/create-customer.css"%>
+</style>
+
 </head>
 <body style="background-color: #121212;">
 
@@ -29,7 +30,8 @@
 							<form:input path="customerId" type="text"
 								class="form-control input" id="full-name"
 								placeholder="Họ và tên" autocomplete="off" />
-							<label for="full-name" style="color: white"> Code (CUS-xxxx) <span class="text-danger">*</span>
+							<label for="full-name" style="color: white"> Code
+								(CUSxxxxx) <span class="text-danger">*</span>
 							</label>
 							<form:errors path="customerId" cssClass="text-danger" />
 						</div>
@@ -79,7 +81,7 @@
 							<label for="address" style="color: white"> Address <span
 								class="text-danger">*</span>
 							</label>
-						<form:errors path="address" cssClass="text-danger" />
+							<form:errors path="address" cssClass="text-danger" />
 						</div>
 					</div>
 				</div>

@@ -1,4 +1,4 @@
-package com.fsoft.internet.repo;
+package com.fsoft.internet.repositories;
 
 import javax.transaction.Transactional;
 
@@ -7,7 +7,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.fsoft.internet.models.Computer;
+import com.fsoft.internet.entities.Computer;
 
 @Repository
 @Transactional

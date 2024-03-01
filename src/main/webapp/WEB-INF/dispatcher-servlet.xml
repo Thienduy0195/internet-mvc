@@ -13,7 +13,7 @@
         base-package="com.fsoft.internet" annotation-config="true" />
     <mvc:annotation-driven />
     <!-- Add support for reading web resources: css, images, js, etc ... -->
-    <mvc:resources mapping="/resources/**" location="/resources/bootstrap/"
+    <mvc:resources mapping="/resources/**" location="/resources/css/"
         cache-period="31556926" />
     <mvc:resources location="/resources/" mapping="/resources/**"></mvc:resources>
     <bean
@@ -27,7 +27,7 @@
         <property name="driverClassName"
             value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
         <property name="url"
-            value="jdbc:sqlserver://localhost;database=INTERNET_DB;Encrypt=True;TrustServerCertificate=True;sendTimeAsDateTime=false" />
+            value="jdbc:sqlserver://localhost;database=internet_management_system;Encrypt=True;TrustServerCertificate=True;sendTimeAsDateTime=false" />
         <property name="username" value="sa" />
         <property name="password" value="12345" />
     </bean>
@@ -49,7 +49,7 @@
         <property name="dataSource" ref="dataSource" />
         <property name="jpaVendorAdapter"
             ref="hibernateJpaVendorAdapter" />
-        <property name="packagesToScan" value="com.fsoft.internet.models" />
+        <property name="packagesToScan" value="com.fsoft.internet.entities" />
         <property name="jpaProperties">
             <props>
                 <!-- Configures the used database dialect. This allows Hibernate to create

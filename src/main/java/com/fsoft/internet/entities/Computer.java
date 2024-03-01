@@ -1,4 +1,4 @@
-package com.fsoft.internet.models;
+package com.fsoft.internet.entities;
 
 import java.util.Set;
 

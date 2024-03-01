@@ -8,7 +8,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.fsoft.internet.models.Product;
+import com.fsoft.internet.entities.Product;
 import com.fsoft.internet.repositories.product.IProductRepoSitory;
 
 @Service

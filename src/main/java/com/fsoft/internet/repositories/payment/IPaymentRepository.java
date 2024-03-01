@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.fsoft.internet.models.Payment;
-import com.fsoft.internet.models.PaymentId;
+import com.fsoft.internet.entities.Payment;
+import com.fsoft.internet.entities.PaymentId;
 
 @Repository
 public interface IPaymentRepository extends JpaRepository<Payment, PaymentId> {

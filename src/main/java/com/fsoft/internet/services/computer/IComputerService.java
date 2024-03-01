@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.fsoft.internet.models.Computer;
+import com.fsoft.internet.entities.Computer;
 
 public interface IComputerService {
 

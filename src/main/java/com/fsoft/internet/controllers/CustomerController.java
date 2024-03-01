@@ -24,9 +24,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.fsoft.internet.dto.CustomerDTO;
-import com.fsoft.internet.models.Customer;
-import com.fsoft.internet.models.Payment;
-import com.fsoft.internet.models.Records;
+import com.fsoft.internet.entities.Customer;
+import com.fsoft.internet.entities.Payment;
+import com.fsoft.internet.entities.Records;
 import com.fsoft.internet.services.customer.ICustomerService;
 import com.fsoft.internet.services.payment.IPaymentService;
 import com.fsoft.internet.services.record.IRecordService;
@@ -54,7 +54,6 @@ public class CustomerController {
   }
 
 
-
 @PostMapping("/create")
   public String createNew(
       @Valid @ModelAttribute("customer") CustomerDTO customerDTO,
@@ -68,7 +67,7 @@ public class CustomerController {
         String msg = item.getDefaultMessage();
         errorList.put(field, msg);
       }
-      model.addAttribute("errorList", errorList);
+//      model.addAttribute("errorList", errorList);
       model.addAttribute("customer", customerDTO);
       return "customer/create-customer";
     }

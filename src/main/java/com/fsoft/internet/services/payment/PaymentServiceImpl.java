@@ -8,7 +8,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.fsoft.internet.models.Payment;
+import com.fsoft.internet.entities.Payment;
 import com.fsoft.internet.repositories.payment.IPaymentRepository;
 
 @Service

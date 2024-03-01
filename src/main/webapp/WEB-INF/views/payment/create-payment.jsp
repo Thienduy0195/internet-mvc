@@ -7,10 +7,10 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Using Service</title>
-<link href="<c:url value="/resources/css/bootstrap.min.css" />"
-	rel="stylesheet">
-<link href="<c:url value="/resources/css/create-customer.css" />"
-	rel="stylesheet">
+<style type="text/css">
+ <%@include file="/resources/css/bootstrap.min.css"%>
+ <%@include file="/resources/css/create-customer.css"%>
+</style>
 </head>
 <body style="background-color: #121212;">
 

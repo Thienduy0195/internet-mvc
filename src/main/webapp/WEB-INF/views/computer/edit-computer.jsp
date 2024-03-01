@@ -8,11 +8,9 @@
 <meta charset="ISO-8859-1">
 <title>Update computer</title>
 
-<link href="<c:url value="/resources/css/bootstrap.min.css" />"
-	rel="stylesheet">
-<link href="<c:url value="/resources/css/create-computer.css" />"
-	rel="stylesheet">
 <style type="text/css">
+ <%@include file="/resources/css/bootstrap.min.css"%>
+ <%@include file="/resources/css/create-computer.css"%>
 </style>
 </head>
 <body>

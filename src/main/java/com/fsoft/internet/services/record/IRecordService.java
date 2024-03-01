@@ -2,7 +2,7 @@ package com.fsoft.internet.services.record;
 
 import java.util.List;
 
-import com.fsoft.internet.models.Records;
+import com.fsoft.internet.entities.Records;
 
 public interface IRecordService {
 

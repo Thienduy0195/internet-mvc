@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.fsoft.internet.models.RecordId;
-import com.fsoft.internet.models.Records;
+import com.fsoft.internet.entities.RecordId;
+import com.fsoft.internet.entities.Records;
 
 @Repository
 public interface IRecordRepository extends JpaRepository<Records, RecordId> {
